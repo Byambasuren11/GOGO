@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            height:200vw;
+        }
+        #sticky{
+            position: sticky; 
+            top:0px;
+            height:50px;
+            weight:100%; 
+            background-color: orange;
+        }
+        #fixed{
+            position:fixed;
+            bottom:100px;
+            right:50px;
+            height:50px;
+            weight:100%; 
+            background-color: white;
+        }
+        #absolute{ 
+            width: 100%;
+            position:absolute;
+        top:200vw;
+        }
+    </style>
+</head>
+<body>
+    <div style="height:30px;weight:100%; background-color: black;"></div>
+    <div id="sticky">Header</div>
+    <div id="fixed"><img style="height:50px; width:50px" src="Group 26.png"/></div>
+    <div style="height:50px;weight:100%; background-color: white;"></div>
+   <div id="absolute"><div style="height:50px; weight:100px; background-color: aqua;"></div></div>
+</body>
+</html>

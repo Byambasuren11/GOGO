@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  height: 200vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+button {
+  border: none;
+  background: white;
+  font-size: 15px;
+}
+.Section1 {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top, rgb(247, 243, 243) 0%, #ffffff 100%);
+  padding-bottom: 50px;
+}
+.nav1 {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.nav1 a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body1 {
+  display: flex;
+  max-width: 900px;
+  height: 300px;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.nud {
+  position: relative;
+}
+.b-pic1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.trans {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+.grey {
+  color: grey;
+  font-size: 10px;
+}
+.orange {
+  background: linear-gradient(to right, rgb(238, 42, 42) 0%, orange 100%);
+  padding: 5px;
+  width: 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.niigem {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  background: linear-gradient(to right, rgb(247, 243, 243) 0%, white 100%);
+  border-radius: 10px;
+}
+.iconii {
+  color: grey;
+  width: 40px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(230, 228, 228);
+}
+.pic11 {
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+.cola {
+  width: 210px;
+  font-size: 12px;
+}
+.mcs {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 900px;
+}
+.iconoo {
+  color: grey;
+  width: 3cqb;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 5px;
+}
+.icon {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.robot {
+  width: 210px;
+  height: 210px;
+  border-radius: 5px;
+}
+.GoGo {
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  margin-top: 20px;
+  padding: 3px;
+  gap: 3px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Gofat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.story {
+  display: flex;
+  border-radius: 5px;
+  gap: 10px;
+}
+img {
+  border-radius: 5px;
+}
+.today {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.next {
+  max-width: 900px;
+  margin-top: 50px;
+  width: 70%;
+  border-right-width: 5px;
+  border-right-color: #808080;
+}
+.lklkb {
+  width: 85px;
+  height: 5px;
+  background-color: red;
+  border-radius: 5px;
+}
+.today1 {
+  display: flex;
+  justify-content: center;
+}
+.start {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 70%;
+}
+.sor {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.sor1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.poll {
+  height: 300px;
+  width: 100%;
+  background-color: #427be8;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.poll2 {
+  font-size: 13px;
+  height: 50px;
+  background-color: #88aaef;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.poll1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.poll3 {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.section2 {
+  width: 25%;
+  margin-top: 65px;
+}
+.before {
+  display: flex;
+}
+p {
+  font-size: 12px;
+}
+.icon1 {
+  display: flex;
+  gap: 10px;
+}
+.tree {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 8px;
+  margin-left: 50px;
+}
+.bataa {
+  margin-left: 50px;
+  margin-top: 30px;
+}
