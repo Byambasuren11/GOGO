@@ -57,6 +57,7 @@ button {
 }
 .nud {
   position: relative;
+  
 }
 .b-pic1 {
   width: 100%;
@@ -65,12 +66,24 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  overflow: hidden;
 }
 .trans {
+  top: 0;
   display: flex;
   position: absolute;
-  text-align: center;
-  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  z-index:1;
+  visibility: hidden;
+  color: white;
+  height: 300px;
+  width: 436.04px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.nud:hover .trans{
+  visibility: visible;
 }
 .grey {
   color: grey;
