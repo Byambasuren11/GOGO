@@ -183,9 +183,8 @@ img {
 .next {
   max-width: 900px;
   margin-top: 50px;
-  width: 70%;
-  border-right-width: 5px;
-  border-right-color: #808080;
+  width: 60%;
+
 }
 .lklkb {
   width: 85px;
@@ -201,7 +200,7 @@ img {
   display: flex;
   align-items: center;
   gap: 15px;
-  width: 70%;
+  width: 30%;
 }
 .sor {
   display: flex;
@@ -215,7 +214,7 @@ img {
 }
 .poll {
   height: 300px;
-  width: 100%;
+  width: 60%;
   background-color: #427be8;
   color: white;
   padding: 20px;
@@ -242,11 +241,12 @@ img {
   margin-top: 20px;
 }
 .section2 {
-  width: 25%;
+  width: 30%;
   margin-top: 65px;
 }
 .before {
   display: flex;
+  justify-content: center;
 }
 p {
   font-size: 12px;
