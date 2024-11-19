@@ -6,7 +6,7 @@
 }
 body {
   width: 100%;
-  height: 500vw;
+  height: 700vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@ button {
   border-radius: 10px;
   transition: transform 1s;
 }
-.nud:hover .b-pic1{
+.nud:hover .b-pic1 {
   transform: scale(1.2);
 }
 .trans {
@@ -123,20 +123,21 @@ button {
 }
 .pic111 {
   position: relative;
- overflow: hidden;
+  overflow: hidden;
   border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 .pic11 {
   width: 100%;
   height: 132px;
   border-radius: 5px;
-  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 1s;
 }
-.pic111:hover .pic11{
+.pic111:hover .pic11 {
   transform: scale(1.2);
 }
 .pic112 {
@@ -218,7 +219,6 @@ img {
   max-width: 900px;
   margin-top: 50px;
   width: 70%;
-
 }
 .lklkb {
   width: 85px;
@@ -249,7 +249,7 @@ img {
 .poll {
   height: 300px;
   width: 90%;
-  background-color: #427be8;
+  background-color: #4eadee;
   color: white;
   padding: 20px;
   display: flex;
@@ -275,7 +275,7 @@ img {
   margin-top: 20px;
 }
 .section2 {
-  width:30%;
+  width: 30%;
   margin-top: 65px;
 }
 .before {
@@ -300,39 +300,38 @@ p {
   margin-left: 50px;
   margin-top: 30px;
 }
-.trend{
+.trend {
   display: flex;
-  gap:8px;
-  margin-left:50px;
+  gap: 8px;
+  margin-left: 50px;
   padding-top: 20px;
 }
-.section2-2{
+.section2-2 {
   margin-top: 30px;
-  background-color:#F6F4EF;
+  background-color: #f6f4ef;
   padding-bottom: 70px;
 }
-.number{
+.number {
   display: flex;
 }
-.number h1{
+.number h1 {
   color: red;
   font-size: 40px;
   margin-right: 5px;
 }
-.number p
-{
+.number p {
   font-size: 10px;
 }
-.tt{
+.tt {
   display: flex;
   margin-top: 10px;
 }
-.red{
-  margin-top:30px;
+.red {
+  margin-top: 30px;
   padding: 10px;
   margin-left: 20px;
 }
-.tsaash{
+.tsaash {
   width: 550px;
   height: 50px;
   display: flex;
@@ -342,60 +341,61 @@ p {
   gap: 10px;
   font-size: 20px;
 }
-.yriy{
+.yriy {
   display: flex;
   margin-top: 60px;
+  gap: 5px;
+  margin-bottom: 15px;
 }
-.yriy1{
+.yriy1 {
   display: flex;
   gap: 10px;
   max-width: 900px;
   height: 400px;
 }
-.yriy11{
+.yriy11 {
   width: 50%;
   height: 100%;
 }
-.yriy11 img{
+.yriy11 img {
   width: 100%;
   height: 100%;
 }
-.yriy12{
+.yriy12 {
   width: 50%;
   height: 100%;
   display: flex;
   gap: 10px;
 }
-.yriy12 img{
-  width:100%;
+.yriy12 img {
+  width: 100%;
   height: 193px;
   margin-bottom: 10px;
 }
-.eye{
+.eye {
   display: flex;
   font-size: 8px;
   align-items: center;
   gap: 5px;
   color: #ffffff;
-position: absolute;
-bottom: 10px;
-left:5px
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
 }
-.gg{
+.gg {
   width: 140px;
   height: 210px;
   position: absolute;
   top: 0;
   color: #ffffff;
   font-size: 10px;
-
 }
-.gogo{
+.gogo {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
 }
-.up{
+.up {
   position: absolute;
   bottom: 35px;
   font-size: 10px;
@@ -404,17 +404,48 @@ left:5px
   height: 23px;
   transition: all 1s;
 }
-.gg:hover .up{
+.gg:hover .up {
   height: 45px;
 }
-.g-logo{
-position: absolute;
-left: 5px;
-top: 5px;
+.g-logo {
+  position: absolute;
+  left: 5px;
+  top: 5px;
 }
-.gogo-zurag{
+.gogo-zurag {
   transition: transform 1s;
 }
-.gogo:hover .gogo-zurag{
+.gogo:hover .gogo-zurag {
   transform: scale(1.2);
+}
+.hew-mayg {
+  display: flex;
+  max-width: 900px;
+  gap: 10px;
+}
+.hew-pic {
+  width: 100%;
+  height: 200px;
+}
+.com-pic {
+  display: flex;
+  width: 100%;
+}
+.scroll {
+  max-width: 900px;
+  display: flex;
+  gap: 10px;
+}
+.footer {
+  background-color: red;
+  margin-top: 100px;
+  padding: 100px 0;
+  width: 100%;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
 }
