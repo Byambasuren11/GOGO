@@ -22,6 +22,15 @@ body {
   display: flex;
   gap: 20px;
 }
+.chevron{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+.chevron img{
+  width: 10px;
+}
 button {
   border: none;
   background: white;
@@ -40,6 +49,18 @@ button {
   display: flex;
   gap: 20px;
   font-size: 12px;
+  height: 60px;
+}
+.nav1 a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px
 }
 .nav1 a {
   display: flex;
@@ -241,6 +262,45 @@ img {
   gap: 25px;
   margin-bottom: 25px;
 }
+.beta {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 150px;
+  flex-shrink: 0;
+}
+.greta {
+  width: 100%;
+  /* width: 200px; */
+  height: 120px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: transform 1s;
+}
+.beta:hover .alpha {
+  visibility: visible;
+}
+.beta:hover .greta {
+  transform: scale(1.2);
+}
+.alpha {
+  top: 0;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  visibility: hidden;
+  color: white;
+  height: 120px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 8px;
+}
 .sor1 {
   display: flex;
   flex-direction: column;
@@ -299,6 +359,46 @@ p {
 .bataa {
   margin-left: 50px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.alpha1{
+  top: 0;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  visibility: hidden;
+  color: white;
+  height: 130px;
+  width: 210px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 8px;
+}
+.gamma1{
+  width: 100%;
+  /* width: 200px; */
+  height: 130px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: transform 1s;
+}
+.gamma:hover .alpha1{
+  visibility: visible;
+}
+.gamma{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 210px;
+  flex-shrink: 0;
+
 }
 .trend {
   display: flex;
@@ -327,9 +427,11 @@ p {
   margin-top: 10px;
 }
 .red {
-  margin-top: 30px;
-  padding: 10px;
-  margin-left: 20px;
+  padding: 20px 0 20px 20px;
+  transition: all 1s;
+}
+.red:hover{
+  transform: scale(1.1);
 }
 .tsaash {
   width: 550px;
@@ -356,10 +458,42 @@ p {
 .yriy11 {
   width: 50%;
   height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
 }
-.yriy11 img {
+.white{
+position: absolute;
+bottom: 20px;
+left: 20px;
+
+}
+.yriy11-1 {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+.yriy11:hover .yriy11-1{
+transform: scale(1.2);
+}
+.delger{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.blue{
+  background-color: #4eadee;
+  color: white;
+  width: fit-content;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.white{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .yriy12 {
   width: 50%;
@@ -370,7 +504,92 @@ p {
 .yriy12 img {
   width: 100%;
   height: 193px;
-  margin-bottom: 10px;
+}
+.yriy12-1{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.yriy12-2{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.elchin{
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.elchin-1{
+  transition: all 1s;
+}
+.elchin:hover .elchin-1{
+  transform: scale(1.1);
+}
+.ah{
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.ah-1{
+  transition: all 1s;
+}
+.ah:hover .ah-1{
+  transform: scale(1.1);
+}
+.egc{
+position: relative;
+border-radius: 5px;
+overflow: hidden;
+}
+.egc-1{
+  transition: all 1s;
+}
+.egc:hover .egc-1{
+  transform: scale(1.1);
+}
+.emee{
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.emee-1{
+  transition: all 1s;
+}
+.emee:hover .emee-1{
+  transform: scale(1.1);
+}
+.blue1{
+  background-color: #4eadee;
+  color: white;
+  width: fit-content;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.white1{
+  position: absolute;
+  font-size: 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  overflow: hidden;
+  gap: 10px;
+  bottom: 20px;
+  left: 10px;
+}
+.elchin:hover .white1{
+  height: 70px;
+}
+.ah:hover .white1{
+  height: 70px;
+}
+.egc:hover .white1{
+  height: 70px;
+}
+.emee:hover .white1{
+  height: 70px;
 }
 .eye {
   display: flex;
@@ -426,18 +645,72 @@ p {
 .hew-pic {
   width: 100%;
   height: 200px;
+  transition: all 1s;
+}
+.hew-1{
+position: relative;
+overflow: hidden;
+border-radius: 5px;
+}
+.hew-2{
+  top: 0;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  visibility: hidden;
+  color: white;
+  height: 200px;
+  width: 217.5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 12px;
+}
+.hew-1:hover .hew-2{
+  visibility: visible;
+}
+.hew-1:hover .hew-pic{
+  transform: scale(1.2);
 }
 .com-pic {
   display: flex;
-  width: 100%;
+  width: 445px;
+  height: 244.31px;
+  transition: all 1s;
 }
 .scroll {
   max-width: 900px;
   display: flex;
   gap: 10px;
 }
+.comic1{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.comic2{
+ position: absolute;
+ top: 0;
+ z-index: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ visibility: hidden;
+ background-color: rgba(0, 0, 0, 0.5);
+ height: 244.31px;
+ width: 445px;
+ color: #ffffff;
+}
+.comic1:hover .comic2{
+  visibility: visible;
+}
+.comic1:hover .com-pic{
+  transform: scale(1.1);
+}
 .footer {
-  background-color: red;
+  color: white;
+  background-color: black;
   margin-top: 100px;
   padding: 100px 0;
   width: 100%;
@@ -449,3 +722,26 @@ p {
   justify-content: center;
   gap: 70px;
 }
+.about {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  justify-content: center;
+}
+.last {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  padding: 25px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #e3e0e0;
+}
+.about-us {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+
