@@ -6,7 +6,7 @@
 }
 body {
   width: 100%;
-  height: 700vw;
+  height: 1000vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,13 +22,13 @@ body {
   display: flex;
   gap: 20px;
 }
-.chevron{
+.chevron {
   display: flex;
-justify-content: center;
-align-items: center;
-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
-.chevron img{
+.chevron img {
   width: 10px;
 }
 button {
@@ -51,16 +51,16 @@ button {
   font-size: 12px;
   height: 60px;
 }
-.nav1 a{
+.nav1 a {
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:5px
+  gap: 5px;
 }
 .nav1 a {
   display: flex;
@@ -115,6 +115,11 @@ button {
   font-size: 10px;
   width: 350px;
 }
+.grey1{
+  color: grey;
+  font-size: 10px;
+  width: 350px;
+}
 .orange {
   background: linear-gradient(to right, rgb(238, 42, 42) 0%, orange 100%);
   padding: 5px;
@@ -131,6 +136,34 @@ button {
   padding-left: 20px;
   background: linear-gradient(to right, rgb(247, 243, 243) 0%, white 100%);
   border-radius: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #427be8;
+  padding: 10px;
+  background-color: #212121;
+  color: white;
+}
+.nav-bar img {
+  width: 20px;
+}
+.nav-bar1 img {
+  width: 20px;
+}
+.nav-bar1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #427be8;
+  padding: 10px;
+}
+.navigation {
+  display: flex;
+  width: 100%;
+  display: none;
 }
 .iconii {
   color: grey;
@@ -188,6 +221,12 @@ button {
   width: 100%;
   max-width: 900px;
 }
+.mcs1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 900px;
+}
 .iconoo {
   color: grey;
   width: 3cqb;
@@ -219,11 +258,35 @@ button {
   font-family: Arial, Helvetica, sans-serif;
 }
 .Gofat {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+.story-parent {
+  position: relative;
+  overflow: scroll;
+  width: 100%;
+
+  height: 220px;
+}
+.chevron-right {
+  width: 100%;
+  display: flex;
+  max-width: 910px;
+  margin: auto;
+  align-items: center;
+}
+.che {
+  border-radius: 100%;
+  background-color: #d6d7d7;
+  padding: 2px;
+}
+
 .story {
+  z-index: 1;
+  visibility: visible;
+  position: absolute;
   display: flex;
   border-radius: 5px;
   gap: 10px;
@@ -259,6 +322,7 @@ img {
 }
 .sor {
   display: flex;
+  width: 100%;
   gap: 25px;
   margin-bottom: 25px;
 }
@@ -296,7 +360,7 @@ img {
   visibility: hidden;
   color: white;
   height: 120px;
-  width: 150px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   font-size: 8px;
@@ -339,6 +403,7 @@ img {
   margin-top: 65px;
 }
 .before {
+  width: 100%;
   max-width: 900px;
   display: flex;
   justify-content: center;
@@ -363,7 +428,7 @@ p {
   flex-direction: column;
   gap: 10px;
 }
-.alpha1{
+.alpha1 {
   top: 0;
   display: flex;
   position: absolute;
@@ -378,7 +443,7 @@ p {
   border-radius: 10px;
   font-size: 8px;
 }
-.gamma1{
+.gamma1 {
   width: 100%;
   /* width: 200px; */
   height: 130px;
@@ -389,16 +454,15 @@ p {
   border-radius: 10px;
   transition: transform 1s;
 }
-.gamma:hover .alpha1{
+.gamma:hover .alpha1 {
   visibility: visible;
 }
-.gamma{
+.gamma {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
   width: 210px;
   flex-shrink: 0;
-
 }
 .trend {
   display: flex;
@@ -430,7 +494,7 @@ p {
   padding: 20px 0 20px 20px;
   transition: all 1s;
 }
-.red:hover{
+.red:hover {
   transform: scale(1.1);
 }
 .tsaash {
@@ -453,7 +517,7 @@ p {
   display: flex;
   gap: 10px;
   max-width: 900px;
-  height: 400px;
+
 }
 .yriy11 {
   width: 50%;
@@ -462,26 +526,25 @@ p {
   overflow: hidden;
   border-radius: 5px;
 }
-.white{
-position: absolute;
-bottom: 20px;
-left: 20px;
-
+.white {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 .yriy11-1 {
   width: 100%;
   height: 100%;
   transition: all 1s;
 }
-.yriy11:hover .yriy11-1{
-transform: scale(1.2);
+.yriy11:hover .yriy11-1 {
+  transform: scale(1.2);
 }
-.delger{
+.delger {
   display: flex;
   text-decoration: none;
   color: white;
 }
-.blue{
+.blue {
   background-color: #4eadee;
   color: white;
   width: fit-content;
@@ -489,7 +552,7 @@ transform: scale(1.2);
   padding: 5px;
   border-radius: 5px;
 }
-.white{
+.white {
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -505,61 +568,61 @@ transform: scale(1.2);
   width: 100%;
   height: 193px;
 }
-.yriy12-1{
+.yriy12-1 {
   display: flex;
   flex-direction: column;
   gap: 13px;
 }
-.yriy12-2{
+.yriy12-2 {
   display: flex;
   flex-direction: column;
   gap: 13px;
 }
-.elchin{
+.elchin {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
 }
-.elchin-1{
+.elchin-1 {
   transition: all 1s;
 }
-.elchin:hover .elchin-1{
+.elchin:hover .elchin-1 {
   transform: scale(1.1);
 }
-.ah{
+.ah {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
 }
-.ah-1{
+.ah-1 {
   transition: all 1s;
 }
-.ah:hover .ah-1{
+.ah:hover .ah-1 {
   transform: scale(1.1);
 }
-.egc{
-position: relative;
-border-radius: 5px;
-overflow: hidden;
-}
-.egc-1{
-  transition: all 1s;
-}
-.egc:hover .egc-1{
-  transform: scale(1.1);
-}
-.emee{
+.egc {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
 }
-.emee-1{
+.egc-1 {
   transition: all 1s;
 }
-.emee:hover .emee-1{
+.egc:hover .egc-1 {
   transform: scale(1.1);
 }
-.blue1{
+.emee {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.emee-1 {
+  transition: all 1s;
+}
+.emee:hover .emee-1 {
+  transform: scale(1.1);
+}
+.blue1 {
   background-color: #4eadee;
   color: white;
   width: fit-content;
@@ -567,7 +630,7 @@ overflow: hidden;
   padding: 5px;
   border-radius: 5px;
 }
-.white1{
+.white1 {
   position: absolute;
   font-size: 10px;
   color: #ffffff;
@@ -579,16 +642,16 @@ overflow: hidden;
   bottom: 20px;
   left: 10px;
 }
-.elchin:hover .white1{
+.elchin:hover .white1 {
   height: 70px;
 }
-.ah:hover .white1{
+.ah:hover .white1 {
   height: 70px;
 }
-.egc:hover .white1{
+.egc:hover .white1 {
   height: 70px;
 }
-.emee:hover .white1{
+.emee:hover .white1 {
   height: 70px;
 }
 .eye {
@@ -602,7 +665,7 @@ overflow: hidden;
   left: 5px;
 }
 .gg {
-  width: 140px;
+  width: 100%;
   height: 210px;
   position: absolute;
   top: 0;
@@ -610,6 +673,8 @@ overflow: hidden;
   font-size: 10px;
 }
 .gogo {
+  width: 140px;
+  flex-shrink: 0;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
@@ -632,6 +697,8 @@ overflow: hidden;
   top: 5px;
 }
 .gogo-zurag {
+  width: 100%;
+  height: 100%;
   transition: transform 1s;
 }
 .gogo:hover .gogo-zurag {
@@ -647,12 +714,13 @@ overflow: hidden;
   height: 200px;
   transition: all 1s;
 }
-.hew-1{
-position: relative;
-overflow: hidden;
-border-radius: 5px;
+.hew-1 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 200px;
 }
-.hew-2{
+.hew-2 {
   top: 0;
   display: flex;
   position: absolute;
@@ -667,10 +735,10 @@ border-radius: 5px;
   border-radius: 10px;
   font-size: 12px;
 }
-.hew-1:hover .hew-2{
+.hew-1:hover .hew-2 {
   visibility: visible;
 }
-.hew-1:hover .hew-pic{
+.hew-1:hover .hew-pic {
   transform: scale(1.2);
 }
 .com-pic {
@@ -684,28 +752,28 @@ border-radius: 5px;
   display: flex;
   gap: 10px;
 }
-.comic1{
+.comic1 {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
 }
-.comic2{
- position: absolute;
- top: 0;
- z-index: 1;
- display: flex;
- justify-content: center;
- align-items: center;
- visibility: hidden;
- background-color: rgba(0, 0, 0, 0.5);
- height: 244.31px;
- width: 445px;
- color: #ffffff;
+.comic2 {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 244.31px;
+  width: 445px;
+  color: #ffffff;
 }
-.comic1:hover .comic2{
+.comic1:hover .comic2 {
   visibility: visible;
 }
-.comic1:hover .com-pic{
+.comic1:hover .com-pic {
   transform: scale(1.1);
 }
 .footer {
@@ -744,4 +812,116 @@ border-radius: 5px;
   text-decoration: none;
   color: black;
 }
+.samsung{
+  width: 95%;
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .b-pic1 {
+    width: 100%;
+  }
+  .grey1 {
+    display: none;
+  }
+  .b-pic1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .body1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  .niigem {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    background: none;
+    color: white;
+  }
+  .nud {
+    border-radius: 0%;
+    width: 100%;
+  }
+  .section2-2 {
+    display: none;
+  }
+  .trans {
+    display: none;
+  }
+  .section2 {
+    display: none;
+  }
+  .start {
+    display: none;
+  }
+  .mcs1 {
+    display: none;
+  }
+  .nav {
+    display: none;
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .body1 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .body {
+    width: 100%;
+  }
+  .navigation {
+    display: block;
+    display: flex;
+  }
+  .Section1 {
+    background: none;
+  }
+  .gogo {
+    width: 33%;
+  }
+  .before{
+    display: flex;
+    justify-content: start;
+  }
+  .next{
+    width: 95%;
+  }
+  .beta{
+    width:35% ;
+  }
+  .samsung{
+    display: block;
+  width: 80%;
+}
+  .yriy1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sor{
 
+    border-bottom:1px solid;
+    border-color: #e3e0e0;
+    padding-bottom: 10px;
+  }
+  .mcs{
+   flex-wrap: wrap;
+  }
+  .cola{
+    width: 40%;
+  }
+  .hew-mayg{
+    flex-wrap: wrap;
+  }
+  .yriy12{
+    width: 100%;
+  }
+  .yriy11-1{
+    width: 100%;
+  }
+}
