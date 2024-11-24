@@ -115,7 +115,7 @@ button {
   font-size: 10px;
   width: 350px;
 }
-.grey1{
+.grey1 {
   color: grey;
   font-size: 10px;
   width: 350px;
@@ -218,6 +218,7 @@ button {
 .mcs {
   display: flex;
   justify-content: space-evenly;
+  gap: 10px;
   width: 100%;
   max-width: 900px;
 }
@@ -517,7 +518,6 @@ p {
   display: flex;
   gap: 10px;
   max-width: 900px;
-
 }
 .yriy11 {
   width: 50%;
@@ -704,13 +704,22 @@ p {
 .gogo:hover .gogo-zurag {
   transform: scale(1.2);
 }
-.hew-mayg {
-  display: flex;
+
+.hew-mayg-parent {
   max-width: 900px;
+  position: relative;
+  overflow: scroll;
+}
+.hew-mayg {
+  z-index: 1;
+  visibility: visible;
+  /* position: absolute;*/
+  display: flex;
+  border-radius: 5px;
   gap: 10px;
 }
 .hew-pic {
-  width: 100%;
+  width: 220px;
   height: 200px;
   transition: all 1s;
 }
@@ -730,7 +739,7 @@ p {
   visibility: hidden;
   color: white;
   height: 200px;
-  width: 217.5px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   font-size: 12px;
@@ -767,7 +776,7 @@ p {
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.5);
   height: 244.31px;
-  width: 445px;
+  width: 100%;
   color: #ffffff;
 }
 .comic1:hover .comic2 {
@@ -784,6 +793,11 @@ p {
   width: 100%;
 }
 .foot {
+  color: white;
+  background-color: black;
+  margin-top: 100px;
+  padding: 100px 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -812,12 +826,44 @@ p {
   text-decoration: none;
   color: black;
 }
-.samsung{
+.samsung {
   width: 95%;
   display: none;
 }
+.apu {
+  max-width: 900px;
+  position: relative;
+  overflow: scroll;
+}
+.mcs {
+  z-index: 1;
+  visibility: visible;
+  /* position: absolute;*/
+  display: flex;
+  border-radius: 5px;
+  gap: 10px;
+}
+.pic11 {
+  width: 210px;
+}
+.scroll-parent {
+  max-width: 900px;
+  position: relative;
+  overflow: scroll;
+}
+.scroll {
+  z-index: 1;
+  visibility: visible;
+  /* position: absolute;*/
+  display: flex;
+  border-radius: 5px;
+  gap: 10px;
+}
+.com-pic {
+  width: 450px;
+}
 @media only screen and (max-width: 800px) {
-  .b-pic1 {
+  s .b-pic1 {
     width: 100%;
   }
   .grey1 {
@@ -885,43 +931,39 @@ p {
   .gogo {
     width: 33%;
   }
-  .before{
+  .hew {
+    width: 50%;
+  }
+  .before {
     display: flex;
     justify-content: start;
   }
-  .next{
+  .next {
     width: 95%;
   }
-  .beta{
-    width:35% ;
+  .beta {
+    width: 35%;
   }
-  .samsung{
+  .samsung {
     display: block;
-  width: 80%;
-}
-  .yriy1{
+    width: 80%;
+  }
+  .yriy1 {
     display: flex;
     flex-wrap: wrap;
   }
-  .sor{
-
-    border-bottom:1px solid;
+  .sor {
+    border-bottom: 1px solid;
     border-color: #e3e0e0;
     padding-bottom: 10px;
   }
-  .mcs{
-   flex-wrap: wrap;
-  }
-  .cola{
+  .cola {
     width: 40%;
   }
-  .hew-mayg{
-    flex-wrap: wrap;
-  }
-  .yriy12{
+  .yriy12 {
     width: 100%;
   }
-  .yriy11-1{
+  .yriy11-1 {
     width: 100%;
   }
 }
