@@ -515,6 +515,8 @@ p {
   margin-bottom: 15px;
 }
 .yriy1 {
+  width: 100%;
+  aspect-ratio: 2/1;
   display: flex;
   gap: 10px;
   max-width: 900px;
@@ -566,14 +568,18 @@ p {
 }
 .yriy12 img {
   width: 100%;
-  height: 193px;
+  height: 100%;
 }
 .yriy12-1 {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 13px;
 }
 .yriy12-2 {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 13px;
@@ -582,6 +588,7 @@ p {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  height: 50%;
 }
 .elchin-1 {
   transition: all 1s;
@@ -590,6 +597,7 @@ p {
   transform: scale(1.1);
 }
 .ah {
+  height: 50%;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -601,6 +609,7 @@ p {
   transform: scale(1.1);
 }
 .egc {
+  height: 50%;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -612,6 +621,7 @@ p {
   transform: scale(1.1);
 }
 .emee {
+  height: 50%;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -706,6 +716,7 @@ p {
 }
 
 .hew-mayg-parent {
+  width: 100%;
   max-width: 900px;
   position: relative;
   overflow: scroll;
@@ -717,6 +728,7 @@ p {
   display: flex;
   border-radius: 5px;
   gap: 10px;
+  width: 100%;
 }
 .hew-pic {
   width: 220px;
@@ -757,6 +769,7 @@ p {
   transition: all 1s;
 }
 .scroll {
+  width: 100%;
   max-width: 900px;
   display: flex;
   gap: 10px;
@@ -827,10 +840,12 @@ p {
   color: black;
 }
 .samsung {
-  width: 95%;
+  max-width: 900px;
+  width: 100%;
   display: none;
 }
 .apu {
+  width: 100%;
   max-width: 900px;
   position: relative;
   overflow: scroll;
@@ -847,6 +862,7 @@ p {
   width: 210px;
 }
 .scroll-parent {
+  width: 100%;
   max-width: 900px;
   position: relative;
   overflow: scroll;
@@ -946,7 +962,7 @@ p {
   }
   .samsung {
     display: block;
-    width: 80%;
+    width: 100%;
   }
   .yriy1 {
     display: flex;
@@ -958,12 +974,15 @@ p {
     padding-bottom: 10px;
   }
   .cola {
-    width: 40%;
+    width: 50%;
   }
   .yriy12 {
     width: 100%;
   }
   .yriy11-1 {
+    width: 100%;
+  }
+  .yriy11{
     width: 100%;
   }
 }
