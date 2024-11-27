@@ -1,0 +1,53 @@
+.father{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border:rgb(68, 84, 87) solid 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.baby{
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: rgb(15, 28, 32) solid 10px;
+display: flex;
+justify-content: center;
+    align-items: center;
+    
+}
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 10px dashed rgb(27, 65, 81);
+    border-radius: 50%;
+    display: inline-block;
+    
+    box-sizing: border-box;
+    animation: rotation 4s linear infinite;
+    display: flex;
+justify-content: center;
+    align-items: center;
+  }
+  .baby1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: rgb(15, 28, 32) solid 15px;
+    position: absolute;
+    box-shadow: 0px 0px 2px 2px rgb(166 249 251);
+
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
