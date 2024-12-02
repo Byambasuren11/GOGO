@@ -1226,15 +1226,6 @@ p {
     justify-content: start;
     position: relative;
   }
-
-  .menu-bar{
-    display: block;
-    position: absolute;
-    z-index: 1;
-    right: 10px;
-    top: 15px;
-
-  }
   .body1 {
     margin-top: 5px;
     margin-bottom: 0px;
