@@ -6,7 +6,7 @@
 }
 body {
   width: 100%;
- 
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   display: flex;
   gap: 20px;
 }
-.menu-bar{
+.menu-bar {
   width: 40px;
   display: flex;
   align-items: center;
@@ -363,7 +363,7 @@ img {
 .lklkb {
   width: 85px;
   height: 5px;
-  background-color: red;
+  background-color: rgb(182, 180, 180);
   border-radius: 5px;
 }
 .today1 {
@@ -793,12 +793,12 @@ p {
   border-bottom-right-radius: 0 !important;
   border-top-left-radius: 0 !important;
 }
-.hew{
+.hew {
   width: 24%;
   flex-shrink: 0%;
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   border: 1px solid;
   border-color: #d6d7d7;
   border-radius: 5px;
@@ -956,47 +956,47 @@ p {
 .com-pic {
   width: 450px;
 }
-.cola{
+.cola {
   width: 24%;
   flex-shrink: 0;
 }
-.colaq{
+.colaq {
   width: 24%;
   flex-shrink: 0;
 }
-.pic11{
+.pic11 {
   width: 100%;
 }
-.pic11q{
+.pic11q {
   width: 100%;
 }
-.colaq{
+.colaq {
   width: 24%;
 }
-.pic112{
+.pic112 {
   width: 100%;
 }
-.pic112q{
+.pic112q {
   width: 100%;
 }
-.yriy{
+.yriy {
   width: 95%;
   display: flex;
   justify-content: start;
   max-width: 900px;
 }
-@media screen and (min-width:650px) and (max-width: 900px) {
-  .nav1 a{
-    border:1px solid;
+@media screen and (min-width: 650px) and (max-width: 900px) {
+  .nav1 a {
+    border: 1px solid;
     border-color: #d6d7d7;
     border-radius: 5px;
     padding: 5px;
     width: 110px;
   }
-  .Gofat{
+  .Gofat {
     padding: 0 20px;
   }
-  .nav1{
+  .nav1 {
     margin-left: 15px;
     gap: 3px;
   }
@@ -1053,13 +1053,12 @@ p {
     position: relative;
   }
 
-  .menu-bar{
+  .menu-bar {
     display: block;
     position: absolute;
     z-index: 1;
     right: 10px;
     top: 15px;
-
   }
   .body1 {
     margin-top: 5px;
@@ -1082,7 +1081,7 @@ p {
     width: 33%;
     flex-shrink: 0;
   }
-  .hew-pic{
+  .hew-pic {
     width: 100%;
   }
   .before {
@@ -1105,12 +1104,11 @@ p {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-
   }
-  .poll{
+  .poll {
     width: 100%;
   }
-  .yriy12{
+  .yriy12 {
     width: 100%;
   }
   .sor {
@@ -1121,59 +1119,58 @@ p {
   .cola {
     width: 33%;
   }
-  .pic111{
+  .pic111 {
     width: 100%;
   }
   .yriy11-1 {
     width: 100%;
   }
-  .yriy11{
+  .yriy11 {
     width: 100%;
   }
-  .comicc{
+  .comicc {
     width: 50%;
     flex-shrink: 0;
   }
-  .com-pic{
+  .com-pic {
     width: 100%;
   }
-  .colaq{
+  .colaq {
     width: 48%;
   }
-  .mcsq{
+  .mcsq {
     flex-wrap: wrap;
   }
-  .hew-mayg{
+  .hew-mayg {
     padding: 0 20px;
   }
-  .mcs{
+  .mcs {
     padding: 0 20px;
   }
-  .comicc{
+  .comicc {
     padding: 0 20px;
   }
-  .yriy{
+  .yriy {
     padding: 0 20px;
   }
-  .GoGo{
+  .GoGo {
     padding: 0 20px;
   }
-  .yriy1{
+  .yriy1 {
     aspect-ratio: none;
   }
 }
-@media screen and (max-width:650px) {
-  
+@media screen and (max-width: 650px) {
   s .b-pic1 {
     width: 100%;
   }
-  .foot{
+  .foot {
     justify-content: center;
     width: 100%;
 
-    padding:  100px 0px 0 10px;
+    padding: 100px 0px 0 10px;
   }
-  .yriy12{
+  .yriy12 {
     flex-wrap: wrap;
     width: 100px;
   }
@@ -1247,7 +1244,7 @@ p {
     width: 50%;
     flex-shrink: 0;
   }
-  .hew-pic{
+  .hew-pic {
     width: 100%;
   }
   .before {
@@ -1256,7 +1253,7 @@ p {
   }
   .next {
     width: 100%;
-    padding: 0 20px ;
+    padding: 0 20px;
   }
   .beta {
     width: 35%;
@@ -1278,7 +1275,7 @@ p {
   .cola {
     width: 50%;
   }
-  .pic111{
+  .pic111 {
     width: 100%;
   }
   .yriy12 {
@@ -1286,11 +1283,10 @@ p {
   }
   .yriy11-1 {
     width: 80%;
-    height: 400px
-    
+    height: 400px;
   }
-  
-  .yriy11{
+
+  .yriy11 {
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
@@ -1298,93 +1294,93 @@ p {
     overflow: hidden;
     z-index: -1;
   }
-  .comicc{
+  .comicc {
     width: 98%;
     flex-shrink: 0;
   }
-  .com-pic{
+  .com-pic {
     width: 100%;
   }
-  .colaq{
+  .colaq {
     width: 98%;
   }
-  .mcsq{
+  .mcsq {
     flex-direction: column;
   }
-  .poll{
+  .poll {
     width: 100%;
   }
-  .pic11q{
-    height:200px;
-    width: 100%;
-    object-fit: cover;
-  }
-  .pic112q{
-    height: 100%;
-  }
-  .pic11{
+  .pic11q {
     height: 200px;
     width: 100%;
     object-fit: cover;
   }
-  .grey{
+  .pic112q {
+    height: 100%;
+  }
+  .pic11 {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .grey {
     display: none;
   }
-  .last{
+  .last {
     flex-wrap: wrap;
   }
-  .cola{
+  .cola {
     width: 48%;
   }
-  .nav1 a{
-    border:1px solid;
+  .nav1 a {
+    border: 1px solid;
     border-color: #d6d7d7;
     border-radius: 5px;
     padding: 5px;
     width: 110px;
   }
-  .nav1{
+  .nav1 {
     margin-left: 15px;
     gap: 3px;
   }
-  .white{
+  .white {
     left: 70px;
     overflow: hidden;
   }
-  .last{
+  .last {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .about{
+  .about {
     margin-top: 30px;
     flex-wrap: wrap;
   }
-  .Gofat{
+  .Gofat {
     padding: 0 20px;
   }
-  .hew-mayg{
+  .hew-mayg {
     padding: 0 20px;
   }
-  .mcs{
+  .mcs {
     padding: 0 20px;
   }
-  .comicc{
+  .comicc {
     padding: 0 20px;
   }
-  .yriy{
+  .yriy {
     padding: 0 20px;
-    width:98% ;
+    width: 98%;
   }
-  .GoGo{
+  .GoGo {
     padding: 0 20px;
   }
-  .m{
+  .m {
     height: 1300px;
   }
-  .yriy12{
+  .yriy12 {
     height: 400px;
   }
-  .yriy11{
+  .yriy11 {
     overflow: hidden;
   }
 }
